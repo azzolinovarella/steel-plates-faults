@@ -20,3 +20,5 @@ O relatório final deve conter pelo menos as seguintes informações:
   Referências
 
 Grupo com no máximo dois integrantes.
+
+NB -> descartado por conta das variáveis numéricas não serem normais. Mostrar p-values no relatório provando a não normalidade. Seria possível categorizá-las para utilizar o NB categórico mas não faremos isso pro projeto.
