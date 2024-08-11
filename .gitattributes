@@ -1,0 +1,2 @@
+# Para ignorar arquivos de html ao computar estatísticas de tipo de arquivos
+figs/** linguist-vendored
