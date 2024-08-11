@@ -11,7 +11,7 @@ O presente projeto possuí a seguinte estrutura:
 
 &nbsp; . <br>
 ├── `data` -> Contém todos os dados utilizados neste projeto, incluindo a base de dados original, a base de dados tratada, o mapa dos targets para o nome das classes e o mapa do id das colunas para o seu respectivo nome. <br>
-├── `docs` -> Contém o relatório desenvolvido neste projeto e as instruções passadas pelo professor. <br>
+├── `docs` -> Contém o relatório desenvolvido neste projeto, as instruções passadas pelo professor e o esquemático do procedimento adotado. <br>
 ├── `figs` -> Contém todas as figuras geradas nos notebooks. <br>
 ├── `notebooks` -> Contém os notebooks de tratamento dos dados, EDA (simplificada devido a não ser o foco deste projeto) e de validação dos algoritmos de treinamento. <br>
 ├── `environment.yml` -> Contém as dependências necessárias para reconstruir o ambiente virtual conda utilizado neste projeto. <br>
