@@ -124,8 +124,10 @@ def plot_comparative_metric(metrics_dict, metric_name, key_to_compare, export=Fa
                                 meanline_visible=True))
         fig.add_trace(go.Violin(y=metric, name=approach, marker_color=BLUE, side='positive', box_visible=True, meanline_visible=True))
 
-    fig.update_layout(title=f'Comparação de {metric_name}s sem bagging e com bagging', yaxis_title=f'{metric_name.title()} (%)', 
-                      height=800,  autosize=True, showlegend=False)
+    fig.update_layout(title=f'Comparação de {metric_name}s sem bagging e com bagging<br><sup>Cor vermelha representando'
+                      f'a estratégia sem bagging</sup>', 
+                      yaxis_title=f'{metric_name.title()} (%)', 
+                      height=600,  autosize=True, showlegend=False)
     
     if export:
         export_fig(fig, filename, path)

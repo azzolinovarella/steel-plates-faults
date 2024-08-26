@@ -16,7 +16,7 @@ from useful.constants import N_ITER, SEED, TRAINVAL_SPLITS
 
 
 def validate_model(model, X, y, param_grid, targets_map={}):
-    skf = StratifiedKFold(n_splits=N_ITER, random_state=SEED, shuffle=True)   # Shuffle?
+    skf = StratifiedKFold(n_splits=N_ITER, random_state=SEED, shuffle=True)
     skf_folds = skf.split(X, y)
     
     runs_metrics = {}
@@ -45,7 +45,7 @@ def validate_model(model, X, y, param_grid, targets_map={}):
 
 
 def get_best_params(model, X_trainval, y_trainval, param_grid):
-    skf = StratifiedKFold(n_splits=TRAINVAL_SPLITS, random_state=SEED, shuffle=True)  # Shuffle?
+    skf = StratifiedKFold(n_splits=TRAINVAL_SPLITS, random_state=SEED, shuffle=True)
     
     grid_search = GridSearchCV(model, param_grid=param_grid, refit=False, cv=skf, n_jobs=-1)
     grid_search.fit(X_trainval, y_trainval)
@@ -170,7 +170,7 @@ def print_res(res):
 
 
 def compute_feasibility(base_model, X, y, n_runs=3, n_estimators=100):
-    skf = StratifiedKFold(n_splits=N_ITER, random_state=SEED, shuffle=True)  # Shuffle?
+    skf = StratifiedKFold(n_splits=N_ITER, random_state=SEED, shuffle=True)
     skf_folds = skf.split(X, y)
     train_idx, test_idx = next(skf_folds)  # Apenas pava avaliar uma das runs do problema original
 
