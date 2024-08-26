@@ -1,10 +1,10 @@
 # Steel Plates Faults
-O presente repositório contém todo o código elaborado para o projeto final da disciplina Aprendizado de Máquina II da terceira edição do Programa de Especialização em Software (PES 2024) da Embraer, lecionada pelo professor George Darmiton da Cunha Cavalcanti.
+O presente repositório contém todo o código elaborado para o projeto final das disciplinas Aprendizagem de Máquina I e II da terceira edição do Programa de Especialização em Software (PES 2024) da Embraer, lecionada pelo professor George Darmiton da Cunha Cavalcanti.
 
-Este projeto utilizou a base de dados [Steel Plates Faults](https://www.openml.org/search?type=data&status=active&id=1504&sort=runs) do repositório de aprendizado de máquina da UCI. O conjunto de dados contém 1.941 instâncias de falhas em placas de aço, classificadas em 7 tipos diferentes. Ele possui 27 características independentes que são usadas para tarefas de classificação. As variáveis incluem medidas como mínimos e máximos em X e Y, áreas de pixels, perímetros e luminosidade. Assim, o objetivo deste trabalho é dar continuidade ao estudo iniciado na disciplina anterior, Aprendizagem de Máquina I, aplicando e aprofundando os conhecimentos adquiridos por meio da introdução de novas técnicas, como o balanceamento de dados e a combinação de classificadores.
+Este projeto utilizou a base de dados [Steel Plates Faults](https://www.openml.org/search?type=data&status=active&id=1504&sort=runs) do repositório de aprendizado de máquina da UCI. O conjunto de dados contém 1.941 instâncias de falhas em placas de aço, classificadas em 7 tipos diferentes. Ele possui 27 características independentes que são usadas para tarefas de classificação. As variáveis incluem medidas como mínimos e máximos em X e Y, áreas de pixels, perímetros e luminosidade. Assim, o objetivo deste trabalho é avaliar tanto a performance de algoritmos de aprendizado de máquina individualmente, quanto combinar classificadores e utilizar técnicas de balanceamento de dados para tentar aprimorar os resultados.
 
 ## Relatório Experimental
-Informações mais detalhadas sobre o desenvolvimento do projeto podem ser encontradas no relatório presente em [`./docs/relatorio-final-amii.pdf`](./docs/relatorio-final-amii.pdf). 
+Informações mais detalhadas sobre o desenvolvimento do projeto podem ser encontradas nos relatórios presentes em [`./docs/relatorio_final_ami.pdf`](./docs/relatorio_final_ami.pdf) e [`./docs/relatorio_final_amii.pdf`](./docs/relatorio_final_amii.pdf). 
 
 ## Explicação da estrutura do projeto
 O presente projeto possuí a seguinte estrutura:

@@ -1,0 +1,20 @@
+Seguem algumas instruções para realizar os experimentos:
+
+-- selecionar um banco de dados do OpenML (https://www.openml.org/)
+     -- o banco de dados de classificação deve ter: > 3 classes, >10 atributos e >1000 instâncias
+-- 10-fold cross-validation
+-- avaliar máquinas de aprendizagem: kNN, DT, MLP, NB e SVM
+-- métricas (area under the ROC curve, f1-score, accuracy, matriz de confusão média)
+-- opcional: para ajustar os parâmetros das máquinas de aprendizagem usar grid-search ou escolher os parâmetros e justificar
+-- avaliar estratégias de seleção de instâncias, seleção de atributos e/ou de balanceamento
+O relatório final deve conter pelo menos as seguintes informações:
+  1. Introdução
+  2. Conceitos básicos
+  2.1. Técnicas de pré-processamento
+  2.2. Algoritmos de Aprendizagem de Máquina
+  3. Metodologia dos Experimentos
+  3.1.Banco de dados
+  3.2.Métricas
+  4. Resultados 
+  5.Conclusões
+  Referências
