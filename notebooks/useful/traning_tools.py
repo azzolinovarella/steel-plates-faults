@@ -1,10 +1,10 @@
 # Bibliotecas padrão
 from datetime import datetime as dt
+from collections import Counter
 
 # Bibliotecas de terceiros
 ## Utilitárias
 import numpy as np
-from collections import Counter
 from tqdm.notebook import tqdm
 ## Bibliotecas de aprendizado de máquina e análise de dados
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
