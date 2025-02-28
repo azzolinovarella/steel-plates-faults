@@ -1,4 +1,4 @@
-# Steel Plates Faults
+# Análise de Falhas em Placas de Aço usando Aprendizagem de Máquina
 O presente repositório contém todo o código elaborado para o projeto final das disciplinas Aprendizagem de Máquina I e II da terceira edição do Programa de Especialização em Software (PES 2024) da Embraer, lecionada pelo professor George Darmiton da Cunha Cavalcanti.
 
 Este projeto utilizou a base de dados [Steel Plates Faults](https://www.openml.org/search?type=data&status=active&id=1504&sort=runs) do repositório de aprendizado de máquina da UCI. O conjunto de dados contém 1.941 instâncias de falhas em placas de aço, classificadas em 7 tipos diferentes. Ele possui 27 características independentes que são usadas para tarefas de classificação. As variáveis incluem medidas como mínimos e máximos em X e Y, áreas de pixels, perímetros e luminosidade. Assim, o objetivo deste trabalho é avaliar tanto a performance de algoritmos de aprendizado de máquina individualmente, quanto combinar classificadores e utilizar técnicas de balanceamento de dados para tentar aprimorar os resultados.
